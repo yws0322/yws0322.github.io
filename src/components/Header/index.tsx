@@ -34,6 +34,11 @@ export function Header() {
             Study
           </Typography>
         </Link>
+        <Link to={"/paperreview"} style={{ textDecoration: "none" }}>
+          <Typography fontSize={20} sx={{ color: "white", ml: 3 }}>
+            Paper Review
+          </Typography>
+        </Link>
         <Link to={"/projects"} style={{ textDecoration: "none" }}>
           <Typography fontSize={20} sx={{ color: "white", ml: 3 }}>
             Projects
