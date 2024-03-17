@@ -3,7 +3,7 @@ import { PageHeader } from "../../components/PageHeader";
 
 export function AboutMePage() {
   return (
-    <Box sx={{ mt: 10, ml: 40, mr: 40 }}>
+    <Box sx={{ mt: "7vh", ml: "22vw", mr: "22vw" }}>
       <PageHeader title={"About Me"} />
     </Box>
   );

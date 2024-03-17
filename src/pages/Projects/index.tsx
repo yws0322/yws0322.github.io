@@ -4,7 +4,7 @@ import { ProjectCard } from "../../components/ProjectCard";
 
 export function ProjectsPage() {
   return (
-    <Box sx={{ mt: 10, ml: 40, mr: 40 }}>
+    <Box sx={{ mt: "7vh", ml: "22vw", mr: "22vw" }}>
       <PageHeader title={"Projects"} />
       <Box display="flex" sx={{ mt: 3 }}>
         <Box sx={{ mr: 2 }}>
