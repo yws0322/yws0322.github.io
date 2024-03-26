@@ -6,7 +6,10 @@ import "./App.css";
 
 const theme = createTheme({
   typography: {
-    fontFamily: "Inter",
+    fontFamily: `"Source Code Pro", monospace`,
+    button: {
+      textTransform: "none",
+    },
     allVariants: {
       color: "#4D4D4D",
     },

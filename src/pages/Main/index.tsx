@@ -1,38 +1,40 @@
-import { Box, Typography } from "@mui/material";
-import { useLocation } from "react-router-dom";
+import { Box, Button, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 export function MainPage() {
-  const location = useLocation();
-  console.log(location.pathname);
+  const navigate = useNavigate();
   return (
-    <Box mt={10} ml={40} mr={40}>
-      <Box display="flex">
-        <img
-          src={process.env.PUBLIC_URL + "/profile.jpeg"}
-          alt="profile"
-          width={300}
-        />
-        <Box ml={4} mt={3}>
-          <Box display="flex" alignItems="center">
-            <Typography variant="h4" fontWeight="700" sx={{ color: "white" }}>
-              Yeonwoo Seo
-            </Typography>
-            <Typography
-              variant="h6"
-              fontWeight="400"
-              sx={{ color: "white", ml: 2 }}
-            >
-              서연우
-            </Typography>
-          </Box>
-          <Box mt={2}>
-            <Typography variant="h6" sx={{ color: "white" }}>
-              Hi, I'm an undergraduate student majoring in Computer Science and
-              Engineering at Korea University.
-            </Typography>
-          </Box>
-        </Box>
-      </Box>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      sx={{ mt: "25vh" }}
+    >
+      <Typography variant="h2" fontWeight="600">
+        Hi, I'm Yeonwoo 👋
+      </Typography>
+      <Typography variant="h4" mt={3}>
+        An AI engineer interested in
+      </Typography>
+      <Typography variant="h4">
+        natural language processing and healthcare
+      </Typography>
+      <Button
+        onClick={() => {
+          navigate("/aboutme");
+        }}
+        variant="contained"
+        size="large"
+        sx={{
+          borderRadius: 50,
+          mt: 5,
+          fontSize: 20,
+          bgcolor: "#4D4D4D",
+          "&:hover": { bgcolor: "grey" },
+        }}
+      >
+        explore my blog
+      </Button>
     </Box>
   );
 }
