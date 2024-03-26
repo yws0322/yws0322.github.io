@@ -3,7 +3,7 @@ import { MainPage } from "./pages/Main";
 import { AboutMePage } from "./pages/AboutMe";
 import { ProjectsPage } from "./pages/Projects";
 import { StudyPage } from "./pages/Study";
-import { PaperReviewPage } from "./pages/PaerReview";
+import { PaperReviewPage } from "./pages/PaperReview";
 
 export function RouteComponent() {
   return (

@@ -42,19 +42,15 @@ export function ProjectCard({
             alignItems="center"
             justifyContent="space-between"
           >
-            <Typography gutterBottom variant="h5" fontWeight="700">
+            <Typography gutterBottom variant="h6" fontWeight="600">
               {name}
             </Typography>
           </Box>
-          <Typography
-            variant="body2"
-            color="text.secondary"
-            whiteSpace="nowrap"
-            overflow="hidden"
-            textOverflow="ellipsis"
-          >
-            {description}
-          </Typography>
+          <Box height={"3vw"}>
+            <Typography variant="body2" color="text.secondary">
+              {description}
+            </Typography>
+          </Box>
           <Stack
             direction="row"
             justifyContent="flex-start"
