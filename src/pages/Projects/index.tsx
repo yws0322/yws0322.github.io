@@ -10,7 +10,7 @@ export function ProjectsPage() {
             name={"KLUB"}
             description="Club Management and Promotion Platform for Korea University"
             themes={["Frontend", "Typescript", "React"]}
-            imgsrc={process.env.PUBLIC_URL + "/KLUB.png"}
+            imgsrc={"/KLUB.png"}
             link="https://klub.kr"
           />
         </Box>
