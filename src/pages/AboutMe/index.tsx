@@ -5,11 +5,7 @@ export function AboutMePage() {
   return (
     <Box sx={{ mt: "15vh", ml: "22vw", mr: "22vw" }}>
       <Box display="flex">
-        <img
-          src={process.env.PUBLIC_URL + "/profile.jpeg"}
-          alt="profile"
-          width={300}
-        />
+        <img src={"/profile.jpeg"} alt="profile" width={300} />
         <Box mt={2} ml={5}>
           <Typography fontSize={25}>Yeonwoo Seo</Typography>
           <Box mt={2}>
