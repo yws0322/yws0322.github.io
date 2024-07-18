@@ -1,5 +1,5 @@
 {
-  "homepage": "http://readygetset.github.io/",
+  "homepage": "/",
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
@@ -26,10 +26,10 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "VITE_CJS_TRACE=true vite build",
     "serve": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +52,8 @@
   "devDependencies": {
     "@types/prismjs": "^1.26.3",
     "@vitejs/plugin-react": "^4.2.1",
+    "cross-env": "^7.0.3",
+    "env-cmd": "^10.1.0",
     "gh-pages": "^6.1.1",
     "vite": "^5.2.6",
     "vite-plugin-svgr": "^4.2.0",
