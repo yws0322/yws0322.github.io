@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 import { useLocation } from "react-router-dom";
 
 interface LayoutProps {
@@ -13,8 +14,10 @@ export function Layout({ children }: LayoutProps) {
       {location.pathname === "/" ? (
         <Box
           display={"flex"}
+          flexDirection="column"
           justifyContent={"center"}
           sx={{
+            minHeight: "100vh",
             color: "#fff",
             background:
               "linear-gradient(-45deg, #436491, #B7C9D9, #4FA3F0, #22131A)",
@@ -30,24 +33,40 @@ export function Layout({ children }: LayoutProps) {
           </Box>
           <Box
             width="100%"
-            height="100vh"
-            sx={{ marginTop: "70px", zIndex: 1 }}
+            sx={{
+              marginTop: "70px",
+              zIndex: 1,
+              flex: 1,
+              display: "flex",
+              flexDirection: "column"
+            }}
           >
             {children}
           </Box>
+          <Footer />
         </Box>
       ) : (
-        <Box display={"flex"} justifyContent={"center"}>
+        <Box
+          display={"flex"}
+          flexDirection="column"
+          sx={{ minHeight: "100vh" }}
+        >
           <Box sx={{ zIndex: 2 }}>
             <Header location={location.pathname} />
           </Box>
           <Box
             width="100%"
-            height="100vh"
-            sx={{ marginTop: "70px", zIndex: 1 }}
+            sx={{
+              marginTop: "70px",
+              zIndex: 1,
+              flex: 1,
+              display: "flex",
+              flexDirection: "column"
+            }}
           >
             {children}
           </Box>
+          <Footer />
         </Box>
       )}
     </>
