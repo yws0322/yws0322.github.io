@@ -17,13 +17,13 @@ export function CVPage() {
           role="Undergraduate Student"
           details={[
             "Bachelor of Engineering in Computer Science and Engineering",
-            "Total GPA of 4.16 / 4.5 (96.6 / 100),",
-            "Major GPA of 4.19 / 4.5"
+            "Total GPA of 4.22 / 4.5 (97.2 / 100),",
+            "Major GPA of 4.26 / 4.5"
           ]}
         />
         <ExperienceItem
           organization="University of Toronto"
-          period="Jan. 2025 - Apr. 2025 (Expected)"
+          period="Jan. 2025 - Apr. 2025"
           role="Exchange Student"
         />
       </Section>
@@ -196,8 +196,17 @@ export function CVPage() {
             "• Engaged in various collaborative projects to develop web services"
           ]}
         />
+        <ExperienceItem
+          organization="Global Supporters of Miraenaeil Work Experience"
+          period="Jan. 2025"
+          role="Participant"
+          details={[
+            "• Selected as an outstanding participant in the Miraenaeil Work Experience Program",
+            "• Explored technology commercialization and startup ecosystems in Tallinn and Helsinki",
+            "• Conducted interviews and visits at Tallinn University of Technology, Aalto University, Netigate, and Hanken Business Lab"
+          ]}
+        />
       </Section>
-
       <Section title="TECHNICAL SKILLS">
         <List sx={{ p: 0 }}>
           <ListItem sx={{ display: 'list-item', p: 0 }}>
