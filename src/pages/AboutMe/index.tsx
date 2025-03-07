@@ -76,7 +76,7 @@ export function AboutMePage() {
                 Data Science
               </Typography>
               <Typography component="li" variant="body1">
-                Domain Adaptation
+                Recommendation Systems
               </Typography>
             </Box>
           </Box>
