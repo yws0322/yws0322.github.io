@@ -63,6 +63,15 @@ export function CVPage() {
 
       <Section title="RESEARCH EXPERIENCE">
         <ExperienceItem
+          organization="WangLab, University of Toronto"
+          period="Apr. 2025 - Present"
+          role="Undergraduate Intern"
+          details={[
+            "• Researching foundation models for medical imaging",
+            <>• Working as a coordinator for <Link href="https://www.codabench.org/competitions/7151/#/pages-tab" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', textDecoration: 'underline' }}>MICCAI FLARE 2025 Task 5</Link></>
+          ]}
+        />
+        <ExperienceItem
           organization="Data & Adaptive Intelligence Systems Lab, Korea University"
           link="https://dais.korea.ac.kr"
           period="Jul. 2023 - Present"

@@ -5,7 +5,7 @@ interface ExperienceItemProps {
   organization: string;
   role: string;
   period: string;
-  details?: string[];
+  details?: React.ReactNode[];
   link?: string;
   tags?: string[];
 }
