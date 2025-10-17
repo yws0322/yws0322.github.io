@@ -40,7 +40,7 @@ export function MainPage() {
           textAlign: { xs: 'left', sm: 'center' }
         }}
       >
-        An AI engineer interested in
+        An AI engineer interested in  
       </Typography>
       <Typography
         variant="h4"
@@ -49,7 +49,7 @@ export function MainPage() {
           textAlign: { xs: 'left', sm: 'center' }
         }}
       >
-        natural language processing and data science
+        multimodal learning and biomedical AI
       </Typography>
       <Button
         onClick={() => {

@@ -12,7 +12,7 @@ export function Footer() {
             }}
         >
             <Typography variant="body2">
-                © 2024 Yeonwoo Seo. All rights reserved.
+                © 2025 Yeonwoo Seo. All rights reserved.
             </Typography>
         </Box>
     );

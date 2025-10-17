@@ -118,7 +118,7 @@ export function Header() {
         sx={{ mr: { xs: 2, sm: 5 } }}
       >
         <Link
-          to="https://github.com/readygetset"
+          to="https://github.com/yws0322"
           style={{ textDecoration: "none", color: "#4D4D4D" }}
         >
           <GitHubIcon sx={{ fontSize: { xs: "1.2rem", sm: "1.5rem" } }} />
@@ -128,12 +128,6 @@ export function Header() {
           style={{ textDecoration: "none", color: "#4D4D4D" }}
         >
           <EmailIcon sx={{ fontSize: { xs: "1.2rem", sm: "1.5rem" } }} />
-        </Link>
-        <Link
-          to="https://www.instagram.com/syw27o"
-          style={{ textDecoration: "none", color: "#4D4D4D" }}
-        >
-          <InstagramIcon sx={{ fontSize: { xs: "1.2rem", sm: "1.5rem" } }} />
         </Link>
         <Link
           to="https://www.linkedin.com/in/yeonwoo-seo-8950372bb"

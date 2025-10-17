@@ -33,56 +33,69 @@ export function CVPage() {
           * Click on the project names to view their GitHub repositories.
         </Typography>
         <ExperienceItem
-          organization="InThon Datathon"
-          link="https://github.com/readygetset/inthon2024"
+          organization="MICCAI 2025 CHIMERA Challenge Task 2"
+          link="https://chimera.grand-challenge.org/"
+          period="Sep. 2025"
+          role="Second-Place"
+          details={[
+            "• Awarded a prize of 600 EUR for developing a predictive model for biochemical recurrence in prostate cancer patients",
+            "• Delivered both an Oral and Poster Presentation at the CHIMERA Challenge Workshop, part of the MICCAI Conference"
+          ]}
+        />
+        <ExperienceItem
+          organization="InThon 2024 Datathon"
+          link="https://github.com/yws0322/inthon2024"
           period="Nov. 2024"
           role="First-Place"
           details={[
-            "Awarded by the Dean of the College of Information with a prize of 3,000,000 KRW for developing an image captioning model"
+            "• Awarded by the Dean of the College of Information with a prize of 3,000,000 KRW for developing an image captioning model"
           ]}
         />
         <ExperienceItem
           organization="LG Aimers Online Hackathon"
-          link="https://github.com/readygetset/lgaimers5"
+          link="https://github.com/yws0322/lgaimers5"
           period="Aug. 2024"
           role="Top 2% (15th/740)"
           details={[
-            "Led the team in developing a classification model to identify defective products by analyzing structured data from manufacturing processes"
+            "• Led the team in developing a classification model to identify defective products by analyzing structured data from manufacturing processes"
           ]}
         />
 
         <Box mt={2}>
-          <Typography>Academic Excellence Scholarship, Korea University, 2024</Typography>
+          <Typography>Academic Excellence Scholarship, Korea University, 2024 - 2025</Typography>
+          <Typography>President's List, Korea University 2024</Typography>
           <Typography>KU Alumni Scholarships, Korea University, 2024</Typography>
           <Typography>Dean's List, Korea University 2024</Typography>
-          <Typography>Semester High Honors, Korea University, 2024</Typography>
-          <Typography>Semester High Honors, Korea University, 2023</Typography>
-          <Typography>Semester High Honors, Korea University, 2022</Typography>
+          <Typography>Semester High Honors, Korea University, 2022 - 2024</Typography>
         </Box>
       </Section>
 
       <Section title="RESEARCH EXPERIENCE">
         <ExperienceItem
-          organization="WangLab, University of Toronto"
+          organization="Wang Lab, University of Toronto"
           period="Apr. 2025 - Present"
-          role="Undergraduate Intern"
+          role="Undergraduate Intern (Advisor: Dr. Jun Ma)"
           details={[
-            "• Researching foundation models for medical imaging",
-            <>• Working as a coordinator for <Link href="https://www.codabench.org/competitions/7151/#/pages-tab" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', textDecoration: 'underline' }}>MICCAI FLARE 2025 Task 5</Link></>
+            "• Researching multimodal modeling for the survival analysis task using radiology, histopathology, and clinical data",
+            "• Researching foundation models for large-scale 3D biomedical imaging",
+            <>• Served as a co-organizer for <Link href="https://www.codabench.org/competitions/7151/#/pages-tab" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', textDecoration: 'underline' }}>MICCAI 2025 FLARE Challenge Task 5</Link>,
+            managing all operational aspects including <Link href="https://huggingface.co/datasets/FLARE-MedFM/FLARE-Task5-MLLM-2D" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', textDecoration: 'underline' }}>dataset preparation</Link>,
+            <Link href="https://github.com/medfm-flare/FLARE25-PaliGemma" target="_blank" rel="noopener noreferrer" sx={{ color: 'inherit', textDecoration: 'underline' }}>baseline development</Link>,
+            submission evaluation, and participant management and communication</>
           ]}
         />
         <ExperienceItem
           organization="Data & Adaptive Intelligence Systems Lab, Korea University"
           link="https://dais.korea.ac.kr"
-          period="Jul. 2023 - Present"
-          role="Undergraduate Intern (Advisor: Professor Susik Yoon)"
+          period="Jul. 2024 - Dec. 2024"
+          role="Undergraduate Intern (Advisor: Prof. Susik Yoon)"
           details={[
-            "• Researching language modeling on tabular data"
+            "• Conducted research onlanguage modeling for structured data"
           ]}
         />
       </Section>
 
-      <Section title="INTERNSHIPS">
+      <Section title="WORK EXPERIENCE">
         <ExperienceItem
           organization="Softfreak"
           link="https://softfreak.kr/"
@@ -102,7 +115,7 @@ export function CVPage() {
         </Typography>
         <ExperienceItem
           organization="Fashion Sketch Based Image Retrieval"
-          link="https://github.com/readygetset/fashion-sbir"
+          link="https://github.com/yws0322/fashion-sbir"
           period="Jul. 2024 - Aug. 2024"
           role="Team Member"
           details={[
@@ -112,8 +125,8 @@ export function CVPage() {
         />
         <ExperienceItem
           organization="Medical Visual Question Answering"
-          link="https://github.com/readygetset/medical-vqa"
-          period="Jun. 2024 - Jun. 2024"
+          link="https://github.com/yws0322/medical-vqa"
+          period="Jun. 2024"
           role="Individual Project"
           details={[
             "• Term project for course Biomedical AI of 2024-Spring semester",
@@ -123,7 +136,7 @@ export function CVPage() {
         />
         <ExperienceItem
           organization="Korean Copywriting Generation Model"
-          link="https://github.com/readygetset/korean-slm-copywriter"
+          link="https://github.com/yws0322/korean-slm-copywriter"
           period="Apr. 2024 - Jun. 2024"
           role="Team Member"
           details={[
@@ -133,8 +146,8 @@ export function CVPage() {
         />
         <ExperienceItem
           organization="Korean Chit-Chat Dialog Generation Model"
-          link="https://github.com/readygetset/korean-chit-chat-dialog-generation-model"
-          period="May. 2024 - May. 2024"
+          link="https://github.com/yws0322/korean-chit-chat-dialog-generation-model"
+          period="May. 2024"
           role="Team Leader"
           details={[
             "• Term project for course Natural Language Processing of 2024-Spring semester",
@@ -148,7 +161,7 @@ export function CVPage() {
           period="Sep. 2023 - Feb. 2024"
           role="Frontend Developer"
           details={[
-            "• Club management and promotion platform for Korea University"
+            "• Developed club management and promotion platform for Korea University"
           ]}
         />
       </Section>
@@ -177,8 +190,26 @@ export function CVPage() {
 
       <Section title="EXTRACURRICULAR ACTIVITIES">
         <ExperienceItem
+          organization="Korea University Silicon Valley Program"
+          period="Jun. 2025 - Jul. 2025"
+          role="Selected Participant"
+          details={[
+            "• Selected for a fully funded short-term training program in Silicon Valley, organized by Korea University’s National Center of Excellence in Software",
+            "• Visited leading tech companies in Silicon Valley, including Google, Meta, and Microsoft, conducted interviews with industry professionals, and attended entrepreneurship and innovation workshops",
+          ]}
+        />
+        <ExperienceItem
+          organization="Global Technology Commercialization Exploration Program"
+          period="Jan. 2025"
+          role="Selected Participant"
+          details={[
+            "• Selected as an outstanding participant of the Miraenaeil Work Experience Program, organized by Korea University’s Technology Licensing and Commercialization Center, and awarded a fully funded opportunity to explore startup and technology commercialization ecosystems in Tallinn and Helsinki",
+            "• Conducted field visits and interviews at Tallinn University of Technology, Aalto University, Netigate, and Hanken Business Lab",
+          ]}
+        />
+        <ExperienceItem
           organization="Korea University SW Education Volunteer Group"
-          period="Mar. 2024 - Present"
+          period="Mar. 2024 - Dec. 2024"
           role="Volunteer"
           details={[
             "• Participated in teaching and operations at SW/AI camps for K-12 students",
@@ -187,7 +218,7 @@ export function CVPage() {
         />
         <ExperienceItem
           organization="AIKU: Artificial Intelligence in Korea University"
-          period="Jan. 2024 - Present"
+          period="Jan. 2024 - Dec. 2024"
           role="Executive Member"
           details={[
             "• Engaged in study groups covering foundational and advanced topics in deep learning",
@@ -198,21 +229,11 @@ export function CVPage() {
         />
         <ExperienceItem
           organization="KWEB: Korea University Web Master"
-          period="Mar. 2023 - Present"
+          period="Mar. 2023 - Jan. 2024"
           role="Regular Member"
           details={[
             "• Participated in study groups focusing on both frontend and backend web development",
             "• Engaged in various collaborative projects to develop web services"
-          ]}
-        />
-        <ExperienceItem
-          organization="Global Supporters of Miraenaeil Work Experience"
-          period="Jan. 2025"
-          role="Participant"
-          details={[
-            "• Selected as an outstanding participant in the Miraenaeil Work Experience Program",
-            "• Explored technology commercialization and startup ecosystems in Tallinn and Helsinki",
-            "• Conducted interviews and visits at Tallinn University of Technology, Aalto University, Netigate, and Hanken Business Lab"
           ]}
         />
       </Section>
@@ -220,12 +241,12 @@ export function CVPage() {
         <List sx={{ p: 0 }}>
           <ListItem sx={{ display: 'list-item', p: 0 }}>
             <Typography>
-              <strong>Programming Languages:</strong> Python, C, HTML, CSS, JavaScript
+              <strong>Programming Languages:</strong> Python, C, JavaScript, SQL
             </Typography>
           </ListItem>
           <ListItem sx={{ display: 'list-item', p: 0 }}>
             <Typography>
-              <strong>Frameworks & Tools:</strong> Pytorch, Tensorflow, React, Express.js
+              <strong>Frameworks & Tools:</strong> Pytorch, Tensorflow, React.js, Express.js
             </Typography>
           </ListItem>
         </List>

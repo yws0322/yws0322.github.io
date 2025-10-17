@@ -67,16 +67,16 @@ export function AboutMePage() {
             </Typography>
             <Box component="ul" sx={{ mt: 1, pl: 2 }}>
               <Typography component="li" variant="body1">
-                Natural Language Processing
-              </Typography>
-              <Typography component="li" variant="body1">
-                Large Language Models
+                Multimodal Learning
               </Typography>
               <Typography component="li" variant="body1">
                 Data Science
               </Typography>
               <Typography component="li" variant="body1">
-                Recommendation Systems
+                Domain Adaptation
+              </Typography>
+              <Typography component="li" variant="body1">
+                Biomedical AI
               </Typography>
             </Box>
           </Box>
