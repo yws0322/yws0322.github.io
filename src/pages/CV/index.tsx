@@ -33,7 +33,7 @@ export function CVPage() {
           * Click on the project names to view their GitHub repositories.
         </Typography>
         <ExperienceItem
-          organization="MICCAI 2025 CHIMERA Challenge Task 2"
+          organization="MICCAI 2025 CHIMERA Challenge Task 1"
           link="https://chimera.grand-challenge.org/"
           period="Sep. 2025"
           role="Second-Place"
